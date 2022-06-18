@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: burlywood;
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+
+main{
+    display: grid;
+    grid-template-areas:
+    'a b'
+    'c b'
+    ;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+main div{
+    padding: 2em;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.item-a{
+    background-color: blueviolet;
+    grid-area: a;
+}
+
+.item-b{
+    background-color: gray;
+    grid-area: b;
+}
+
+.item-c{
+    background-color: cadetblue;
+    grid-area: c;
+}
+
+.header {
+    color: lightsalmon;
+    font-family: sans-serif;
+}
+
+.paragraph{
+    color: white;
+    font-family: cursive;
+}

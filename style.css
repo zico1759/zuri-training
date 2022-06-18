@@ -1,0 +1,22 @@
+
+
+.container {
+    background-color: rgb(40, 126, 184);
+    padding: 70px;
+    margin: 30px;
+
+}
+
+.container h3, p{
+    color: burlywood;
+    
+}
+
+.flex-container{
+    display: flex;
+    column-gap: 5em;
+    padding: 30px;
+    width: auto;
+    background-color: rgb(66, 26, 141);
+}
+
